@@ -20,14 +20,17 @@
 #pessoal img{
     position: absolute;;
     top:1%;
+    top: 5vw;
     left:39%;
+    left:30vw;
     border-radius: 50% ;
     width: 150px;
-    width: 37,5vh;   
+    width: 23vh;   
 }
 #name{
     font-size: 40px;
     font-size: 10vw;
+    padding-top: 10vh;
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #14ffec;
@@ -41,6 +44,7 @@
     font-size: 5vw;
     color: #f7f7f7;
     padding-left: 10%;
+    padding-left: 0.1vh;
     
 }
 #titleobjetive{
@@ -56,12 +60,12 @@
 #objective{
     border-top: 1px solid #f7f7f7;
     padding-left: 10px;
-    padding-left: 2,5vw;
+    padding-left: 1vw;
     padding-right: 10px;
-    padding-right: 2,5vw;
+    padding-right: 1vw;
     font-family: 'Lobster', cursive;
     font-size: 25px;
-    font-size: 6,5vw;
+    font-size: 5vw;
     color: rgb(247, 247, 247);
     font-weight: lighter;
     text-align: justify;

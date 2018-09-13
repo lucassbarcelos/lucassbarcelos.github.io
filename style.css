@@ -4,9 +4,9 @@
     width: 100%;
 }
 #pessoal{
-    height: 1000vh;
+    height: 150vh;
     background-color:#212121;
-    padding-top: 20px;
+    padding-top: 20%;
     margin: 30;
     padding-top: 23%;
     
@@ -17,13 +17,14 @@
     text-align: left; 
 }
 #pessoal img{
-    position:absolute;
+    position: absolute;;
     top:1%;
     left:39%;
     border-radius: 50% ;
     width: 150px;   
 }
 #name{
+    font-size: 40px;
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #14ffec;

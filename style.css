@@ -1,26 +1,73 @@
 #body {
-    background-color: rgb(0,123,198);
+    background-color: #0d7377;
     margin: 0%;
     width: 100%;
 }
 #pessoal{
-    text-align: center ;
-    height: 100vh;
-    background-color:#222831;
+    height: 1000vh;
+    background-color:#212121;
     padding-top: 20px;
     margin: 30;
+    padding-top: 23%;
+    
+}
+#pessoal ul{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left; 
 }
 #pessoal img{
+    position:absolute;
+    top:1%;
+    left:39%;
     border-radius: 50% ;
     width: 150px;   
 }
-#pessoal h1{
-    color: rgb(0,123,198);
+#name{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #14ffec;
+    letter-spacing: 4px;
 }
 #pessoal h2{
+    border-top: 1px solid #f7f7f7;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #f7f7f7;
+    padding-left: 10%;
+    
+}
+#titleobjetive{
+    padding-top: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #14ffec;
+    font-weight: lighter;
+}
+#objective{
+    border-top: 1px solid #f7f7f7;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: rgb(247, 247, 247);
+    font-weight: lighter;
+    text-align: justify;
+    word-spacing: 3px;
+}
+#links{
+    padding-top: 10%;
+}
+#links a{
+    text-decoration: none;
+    font-size: 20px;
     color: #f7f7f7;
 }
 #exp{
-    background-color: #393e46;
-    width: 100%;  
+    background-color: #323232;
+    width: 1000vh;
+    height: 1000vh;  
 }
+
+

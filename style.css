@@ -5,8 +5,7 @@
 
 }
 #pessoal{
-    height: 150vh;
-    width: 50%;
+    height: auto;
     background-color:#212121;
     padding-top: 20%;
     padding-top: 23%;
@@ -68,8 +67,7 @@
 }
 #exp{
     background-color: #323232;
-    width: 50%;
-    height: 150vh;  
+    height: auto;  
 }
 
 

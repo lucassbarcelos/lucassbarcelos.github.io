@@ -65,6 +65,10 @@
     font-size: 20px;
     color: #f7f7f7;
 }
+#links a:hover{
+    color: #14ffec;
+
+}
 #exp{
     background-color: #323232;
     height: auto;  

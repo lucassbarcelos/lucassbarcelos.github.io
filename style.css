@@ -14,45 +14,34 @@
 #pessoal ul{
     list-style-type: none;
     font-size: 20px;
-    font-size:  5vw;
     text-align: left; 
 }
 #pessoal img{
     position: absolute;;
     top:1%;
-    top: 5vw;
     left:39%;
-    left:30vw;
     border-radius: 50% ;
-    width: 150px;
-    width: 23vh;   
+    width: 150px;   
 }
 #name{
     font-size: 40px;
-    font-size: 10vw;
-    padding-top: 10vh;
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #14ffec;
     letter-spacing: 4px;
-    letter-spacing: 1vw;
 }
 #pessoal h2{
     border-top: 1px solid #f7f7f7;
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    font-size: 5vw;
     color: #f7f7f7;
     padding-left: 10%;
-    padding-left: 0.1vh;
     
 }
 #titleobjetive{
     padding-top: 30px;
-    padding-top: 7,5vw;
     font-family: 'Lobster', cursive;
     font-size: 50px;
-    font-size: 12,5vw;
     text-align: center;
     color: #14ffec;
     font-weight: lighter;
@@ -60,17 +49,13 @@
 #objective{
     border-top: 1px solid #f7f7f7;
     padding-left: 10px;
-    padding-left: 1vw;
     padding-right: 10px;
-    padding-right: 1vw;
     font-family: 'Lobster', cursive;
     font-size: 25px;
-    font-size: 5vw;
     color: rgb(247, 247, 247);
     font-weight: lighter;
     text-align: justify;
     word-spacing: 3px;
-    word-spacing: 1vw;
 }
 #links{
     padding-top: 10%;
@@ -78,7 +63,6 @@
 #links a{
     text-decoration: none;
     font-size: 20px;
-    font-size: 5vw;
     color: #f7f7f7;
 }
 #links a:hover{

@@ -18,8 +18,8 @@
 }
 #pessoal img{
     position: absolute;;
-    top:1%;
-    left:39%;
+    top:10%;
+    left:35%;
     border-radius: 50% ;
     width: 150px;   
 }
@@ -72,6 +72,20 @@
 #exp{
     background-color: #323232;
     height: auto;  
+}
+#academic{
+
+    color: #14ffec;
+    font-size: 30px;
+}
+#exp h2{
+    color: #f7f7f7;
+    font-size: 20px;    
+}
+#exp ul{
+    word-spacing: 3px;
+    list-style-type: none;
+    color: #f1fa8c;
 }
 
 

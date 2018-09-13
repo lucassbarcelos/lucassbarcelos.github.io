@@ -1,9 +1,5 @@
-# ProjetoBarcelos-Barcelos
-Projeto de site para o escritório Barcelos &amp; Barcelos
+Bem Vindo Ao Meu Curriculum Vitae!
 
--Landing page para escritorio..
--A fazer:
-    -Form para entre em contato
-    -Layout para pagina inicial
-    -Melhorar epecialidade
+#Criado em 12 de Setembro de 2018 as 20:26
 
+#Durante uma operacão em Suzano

@@ -1,186 +1,26 @@
-#banner {
-    box-shadow: #0D1321 30px;
-    background-color: rgb(247, 247, 247,0.6);
-    height: 20vh;
-    background-size: cover !important;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10px;
-    line-height: 0px;
-    margin-top: -25px;
-
+#body {
+    background-color: rgb(0,123,198);
+    margin: 0%;
+    width: 100%;
 }
-#banner img{
-    margin-top: -3%;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    ///border-radius: 50%;
-    ///box-shadow: 1px 1px 30px #0D1321;
-    width: 70px;
-}
-
-#banner pre{
-    border-width: 0 0 1px 0;
-    background-color: transparent;
-    border-color: grey;
-    border-radius: 0%;
-    ///height: 20px;
-    ///width: 500px;
-    
-}
-
-#linkdesk{
-    margin-top: -25px;
-    word-spacing: 130px;
-    text-align: center;
-}
-
-#linkdesk a{
-    font-family: 'Libre Baskerville', serif;
-    border-top: 1px solid #0D1321;
-    border-bottom: 1px solid #0D1321;
-    font-size:15px;
-    color:#474a56;
-    text-decoration: none;
-    font-weight: lighter;
-    text-align: center;
-    
-}
-#linkdesk a:hover {
-    text-decoration: none;
-    color: #f8b500;
-    text-shadow: 0px 1px 1px #0D1321;
-    ///color: rgb(0, 168, 128);
-    
-}
-h2 {
-    color:#0D1321;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: lighter;
-}
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color:#564D4A;
-    background-image: url("./images/grey-and-white-wallpaper-HD1.jpg");
-    ///background-color:#f7f7f7;
-    margin: 0;
-    
-}
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color:#f8b500;
-    margin:0px;
-    font-weight: lighter;
-    text-shadow: 1px 1px 5px #0D1321;
-    
-}
-#first{
-    
-}
-#aboutus{
-    background-color: #f7f7f7;
-    text-align: center;
+#pessoal{
+    text-align: center ;
     height: 100vh;
-    padding: 100px 200px 180px 200px;
+    background-color:#222831;
+    padding-top: 20px;
+    margin: 30;
 }
-#aboutus img{
-    border-radius: 50%;
-    width: 100px;
+#pessoal img{
+    border-radius: 50% ;
+    width: 150px;   
 }
-#aboutus h3{
-    padding: 20px 70px 0px 70px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: justify;
+#pessoal h1{
+    color: rgb(0,123,198);
 }
-#aboutus h2{
-    color:#474a56;
-    font-size: 27px;
-    font-family:'Libre Baskerville', serif;
-    font-weight: lighter;
-}
-#Michelle{
-    border-right:1px solid #0D1321;
-}
-.DIREITO{
-    background-color: rgb(50, 50, 50);
-}
-#especialidade{
-    background-color: rgb(50, 50, 50);
-    text-align: center;
-    height: 70vh;
-    padding: 10px 50px 0px 50px;
-    border-left: 1px solid #0D1321;
-    border-right: 1px solid #0D1321;
-    
-}
-#especialidade img{
-    height: 100px;
-}
-#especialidade h3{
+#pessoal h2{
     color: #f7f7f7;
-    padding: 10px 50px 50px 50px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: justify;
-    
-    
 }
-#especialidade h2{
-    color:#f7f7f7;
-    font-size: 27px;
-    font-family:'Libre Baskerville', serif;
-    font-weight: lighter;
-}
-
-#mission{
-    background-color: #f7f7f7;
-    text-align: center;
-    height: 70vh;
-    padding: 100px 50px 0px 50px;
-    text-align: justify;
-}
-#missao{
-    border-right: 1px solid #0D1321;
-}
-#visao{
-    border-right: 1px solid #0D1321;
-}
-#mission h2{
-    color:#474a56;
-    font-size: 27px;
-    font-family:'Libre Baskerville', serif;
-    font-weight: lighter;
-    text-align: center;
-}
-#mission h3{
-    padding: 20px 0px 0px 0px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: justify;
-}
-///#contact{
-    background-image: url();
-}
-.features  {
-    text-align: center;
-    ///background-image: url("./images/beverage-blank-break-997719.jpg");
-    background-size: cover;
-    padding:  180px;
-    margin: 0px;
-}
-
-#footer{
-    background-color: #0D1321;
-    color: #f7f7f7;
-    border-radius: 3px;
-    text-align: center;
-    padding: 30px ;
+#exp{
+    background-color: #393e46;
+    width: 100%;  
 }

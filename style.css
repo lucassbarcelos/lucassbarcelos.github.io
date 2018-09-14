@@ -89,11 +89,11 @@
     text-shadow:1px 1px 3px #000000;   
 }
 #exp ul{
-    font-family: 'Abril Fatface', cursive;
-    word-spacing: 3px;
+    font-family: 'Kosugi', sans-serif;
     list-style-type: none;
     font-size: 20px;
-    color: #0d7377;
+    color: #ebf76f;
+    text-shadow:1px 1px 3px #000000; 
     
 }
 

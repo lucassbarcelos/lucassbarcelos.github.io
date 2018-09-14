@@ -73,19 +73,24 @@
     background-color: #323232;
     height: auto;  
 }
-#academic{
-
+#exp h1{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
     color: #14ffec;
-    font-size: 30px;
+    letter-spacing: 4px;
 }
 #exp h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
     color: #f7f7f7;
-    font-size: 20px;    
+    letter-spacing: 2px;   
 }
 #exp ul{
+    font-family: 'Source Code Pro', monospace;
     word-spacing: 3px;
     list-style-type: none;
-    color: #f1fa8c;
+    color: #e2f04e;
 }
 
 

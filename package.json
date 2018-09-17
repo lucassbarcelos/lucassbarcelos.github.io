@@ -1,0 +1,24 @@
+{
+  "name": "lucassbarcelos.github.io",
+  "version": "1.0.0",
+  "description": "Meu Curriculum Vitae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassbarcelos/lucassbarcelos.github.io.git"
+  },
+  "author": "Lucas Barcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassbarcelos/lucassbarcelos.github.io.git/issues"
+  },
+  "homepage": "https://github.com/lucassbarcelos/lucassbarcelos.github.io.git#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}

@@ -15,7 +15,7 @@
         <title>Meu Curriculum</title>
     
     </head> 
-    <body>
+    <body class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-dark">
             <div class="container">
                 <img class="rounded-circle img-200-200 mr-2" src="/images/C1A5293B-AEF7-4061-AFDC-7C55984F2E48.jpg" alt="Lucas Barcelos" >
@@ -81,23 +81,34 @@
                 <li data-target="#carouselSite" data-slide-to="2"></li>
             </ol>
 
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
             
-                <div class="carousel-item active">
+                <div class="carousel-item active ">
             
-                    <img class="d-block img-fluid" src="https://unsplash.it/1300/600?random">
+                    <img class="d-block img-fluid bg-gradient-dark" src="/images/fundo.jpg">
+                    <div class="carousel-caption">
+                        <h1>Objetivo</h1>
+                        <h4>Prestar servicos com qualidade e exelencia, agregando e adiquirindo conhecimento e somar a equipe sempre buscando pelo autoaperfeicoamento.</h4>
+                    </div>
 
                 </div>
 
                 <div class="carousel-item ">
             
-                        <img class="d-block img-fluid" src="https://unsplash.it/1300/600?random">
-    
+                        <img class="d-block img-fluid" src="/images/fundo2.jpg">
+                        <div class="carousel-caption">
+                            <h1>Visão</h1>
+                            <h4>Facilitar o dia a dia das pessoas atraves de softwares que entendam a necessidade e se comunique de maneira amigavel com o elas</h4>
+                        </div>
                 </div>
 
                 <div class="carousel-item ">
             
                         <img class="d-block img-fluid" src="https://unsplash.it/1300/600?random">
+                        <div class="carousel-caption">
+                                <h1>Principios</h1>
+                                <h4>Zelar sempre pela disciplina, comprometimento e um bom ambiente de trabalho no qual possa ser util nas minhas individualidades e habilidades</h4>
+                        </div>
     
                 </div>
 
@@ -119,50 +130,81 @@
         
         </div>
 
-        <div class="container my-5">
+        <!-- <div class="container my-5">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                    <nav id="navbarVertical" class="navbar navbar-dark bg-dark">
+                    <nav id="navbarVertical" class="navbar navbar-dark bg-dark" >
                         
                         <nav class="nav nav-pills flex-column ">
                             
-                            <h1 id="#sobre" class="text-center">Sobre</h1>
-                            <a class="nav-link active bg-dark" href="#pessoal">Pessoal</a>
-                            <a class="nav-link active bg-dark" href="#address">Endereco</a>
-                            <a class="nav-link active bg-dark" href="#contato">Contato</a>
+                            <h1 id="sobre" class="ml-5" >Sobre</h1>
+                            <a class="nav-link active bg-dark" href="#pessoal"><i class="fas fa-user"></i> Pessoal</a>
+                            <a class="nav-link active bg-dark" href="#address"><i class="far fa-address-book"></i> Endereco</a>
+                            <a class="nav-link active bg-dark" href="#contato"><i class="fas fa-envelope"></i> Contato</a>
                         
                         </nav>
                     </nav>
                 </div>
-                <div class="col-md-8 col-sm-6 bg-light">
+                <div class="col-md-8 col-sm-12 bg-light">
 
                     <div data-spy="scroll" data-target="navbarVertical" data-offset="0" class="scrollspySite ml-3 my-3">
 
-                        <h4 id="pessoal">Estado Civil</h4>
+                        <h4 id="pessoal" class="ml-5 mb-4"><i class="fas fa-user"> </i> Estado Civil</h4>
                         <p>- Solteiro</p>
                         <h4>Idade</h4>
                         <p>- 21 Anos</p>
 
-                        <h4 id="address">Endereco</h4>
+                        <h4 id="address" class="ml-5 mb-4"><i class="far fa-address-book"> </i>  Endereco</h4>
                         <p>Rua Professor Benedito Republicano Brasil N.34 </p>
                         <h5>CEP</h5>
                         <p>- 12287-160 - Cacapava - SP</p>
 
-                        <h4 id="contato">Contato</h4>
-                        <p><i class="fa fa-address-book-o"></i>Tell : (12) 98187-9081</p>
-                        <p>- Criacão de Servidores linux - Samba, Squid e Dhcp</p>
-                        <p>- Manutencão de Hardware</p>
-                        <p>- Criacão de artes em Photoshop</p>
+                        <h4 id="contato" class="ml-5 mb-4"><i class="fas fa-envelope"> </i> Contato</h4>
+                        <p><i class="fas fa-mobile"> </i> Tell : (12) 98187-9081</p>
+                        <p><i class="fab fa-google"> </i> Email : lucassbarcelos58@gmail.com</p>
+
 
                     </div>
 
                 </div>
             </div>
+        </div> -->
+        <div class="row" id="sobre">
+
+            <div class="col-sm-3">
+
+                <img class="rounded-circle img-400-400 my-5 ml-5" src="/images/C1A5293B-AEF7-4061-AFDC-7C55984F2E48.jpg" alt="Lucas" >
+
+            </div>
+            <div class="col-sm-4 text-light my-3 pessoal">
+
+                <h3 class="ml-5 my-4"><i class="fas fa-id-card"> </i> <strong> Pessoal</strong></h3>
+                <h4>- Solteiro, 21 Anos <br>
+                    - Natural de Cascavel - PR <br>
+                    - Filho de Paulo Renato Barcelos e <br>
+                    - Rosane Fatima Barcelos
+                </h4>
+
+            </div>
+            <div class="col-sm-4 text-light my-5 pessoal">
+
+                    <h3  class="ml-3 mb-3"><strong> <i class="far fa-address-book"> </i> Endereco</strong></h3>
+                    <h4 >- Rua Professor Benedito Republicano Brasil N.34 <br>
+                        - 12287-160 - Cacapava - SP <br>
+                    </h4>
+                    <h3  class="ml-3 mb-3 my-3"><strong><i class="fas fa-envelope"> </i> Contato</strong></h3>
+                    <h4 ><i class="fas fa-mobile"> </i> Tell : (12) 98187-9081 <br>
+                        <i class="fab fa-google"> </i> Email : lucassbarcelos58@gmail.com
+                    </h4>
+            </div>
+            <div class="col-sm-1">
+                
+            </div>
         </div>
         <div class="container">
                 
             <div class="row">
-                <div class="col-12  bg-light" ><hr ></div>
+                <div class="col-12 bg-light" ><hr ></div>
                 
                 <div class="col-sm-4 bg-light text-dark align-content-center ">
 
@@ -199,6 +241,89 @@
             </div>
 
         </div>
+
+            <div class="row text-light linguagem linguagem1">
+                <div class="col-12">
+                    <h1 class="text-center mb-3">Conhecimentos / Linguagens</h1>
+                </div>
+                <div class="col-sm-2 linguagem1 linguagem">
+                    <img  class="img-200-200 text-center ml-5" src="/images/linguagens/bootstrap-stack.png" alt="bootstrap">
+                    <div class="progress ml-2 my-4">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 60%">60</div>
+                    </div>
+                    <h3 class="text-center">Bootstrap</h3>
+                    <ul>
+                        <li>NavBar</li>
+                        <li>Colapse</li>
+                        <li>Grid</li>
+                        <li>Carousel</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 linguagem1 linguagem">
+                        <img  class="img-200-200 text-center my-0 ml-5 mb-3" src="/images/linguagens/html5.png" alt="html5">
+                        <div class="progress ml-2 my-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 75%;">75</div>
+                        </div>
+                        <h3 class="text-center my-4 mb-auto">Html5</h3>
+                        <ul class="my-2">
+                            <li>Criacão</li>
+                            <li>Desing</li>
+                            <li>Manupulacão</li>
+                            <li>listas </li>
+                        </ul>
+                </div>
+                <div class="col-sm-2 linguagem1 linguagem">
+                        <img  class="img-200-200 text-center my-0 ml-5 mb-3" src="/images/linguagens/css.png" alt="css">
+                        <div class="progress ml-2 my-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 55%;">55</div>
+                        </div>
+                        <h3 class="text-center my-4 mb-auto">Css3</h3>
+                        <ul class="my-2">
+                            <li>Fontes</li>
+                            <li>Classes e Id's</li>
+                            <li>Cores e Imagens</li>
+                            <li>Controle de Tamanho </li>
+                        </ul>
+                </div>
+                <div class="col-sm-2 linguagem1 linguagem">
+                        <img  class="git text-center my-0 ml-5 mb-2" src="/images/linguagens/git.png" alt="git">
+                        <div class="progress ml-2 my-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 80%;">80</div>
+                        </div>
+                        <h3 class="text-center my-4 mb-auto">Git</h3>
+                        <ul class="my-2">
+                            <li>Branches</li>
+                            <li>Repositórios Remotos</li>
+                            <li>Commit's</li>
+                        </ul>
+                </div>
+                <div class="col-2 linguagem1 linguagem">
+                        <img  class="img-200-200 text-center my-0 ml-5 mb-4" src="/images/linguagens/vscode.png" alt="Visual Studio Code">
+                        <div class="progress ml-2 my-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 70%;">70</div>
+                        </div>
+                        <h3 class="text-center my-4 mb-auto">VS Code</h3>
+                        <ul class="my-2">
+                            <li>Branches</li>
+                            <li>Repositórios Remotos</li>
+                            <li>Commit's</li>
+                        </ul>
+                </div>
+                <div class="col-sm-2 linguagem1 linguagem mr-0">
+                        <img  class="img-200-200 text-center my-0 ml-5 mb-4" src="/images/linguagens/photoshop.jpg" alt="Photoshop">
+                        <div class="progress ml-2 my-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 80%;">80</div>
+                        </div>
+                        <h3 class="text-center my-4 mb-auto">Photoshop</h3>
+                        <ul class="my-2">
+                            <li>Criacão de Artes</li>
+                            <li>Manipulacão de Imagens</li>
+                            <li>Logos</li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>    
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>

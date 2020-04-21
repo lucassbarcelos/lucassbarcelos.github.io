@@ -1,4 +1,4 @@
-import React, { Button } from "react";
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 
 import "./BackgroundVideo.css";
@@ -21,9 +21,19 @@ const BackgroundVideo = () => {
           />
           <h1>Lucas Barcelos</h1>
           <p>Web developer using React</p>
-          <Button type="button" className="btn btn-outline-dark">
-            <FaGithub size={18} color="#FFF" /> Github
-          </Button>
+          <a
+            href="https://github.com/lucassbarcelos"
+            target="_blank"
+            alt="github Lucas"
+          >
+            <button
+              type="button"
+              onClick="redirect('github.com/lucassbarcelos')"
+              className="btn btn-outline-dark"
+            >
+              <FaGithub size={18} color="#FFF" /> Github
+            </button>
+          </a>
         </div>
       </div>
     </div>

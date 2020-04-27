@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import "./BackgroundVideo.css";
 
@@ -15,25 +16,30 @@ const BackgroundVideo = () => {
 
       <div className="Content">
         <div className="SubContent">
-          <img
-            src="https://avatars2.githubusercontent.com/u/13748415?s=460&u=8fd252c46e97a8e711d6f17fa6a3e379eb38de2f&v=4"
-            alt="profile"
-          />
-          <h1>Lucas Barcelos</h1>
-          <p>Web developer using React</p>
-          <a
-            href="https://github.com/lucassbarcelos"
-            target="_blank"
-            alt="github Lucas"
+          <button
+            type="button"
+            onClick="redirect('github.com/lucassbarcelos')"
+            className="btn btn-outline-dark"
           >
-            <button
-              type="button"
-              onClick="redirect('github.com/lucassbarcelos')"
-              className="btn btn-outline-dark"
-            >
-              <FaGithub size={18} color="#FFF" /> Github
-            </button>
-          </a>
+            <FaGithub size={18} color="#FFF" /> Github
+          </button>
+          <div className="SubContentC">
+            <img
+              src="https://avatars2.githubusercontent.com/u/13748415?s=460&u=8fd252c46e97a8e711d6f17fa6a3e379eb38de2f&v=4"
+              alt="profile"
+            />
+            <h1>Lucas Barcelos</h1>
+            <p>Web developer using React</p>
+            <Link To="https://github.com/lucassbarcelos">
+              <button
+                type="button"
+                onClick="redirect('github.com/lucassbarcelos')"
+                className="btn btn-outline-dark"
+              >
+                <FaGithub size={18} color="#FFF" /> Github
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

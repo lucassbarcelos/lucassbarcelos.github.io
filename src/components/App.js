@@ -19,16 +19,18 @@ const BackgroundVideo = () => {
             src="https://avatars2.githubusercontent.com/u/13748415?s=460&u=8fd252c46e97a8e711d6f17fa6a3e379eb38de2f&v=4"
             alt="profile"
           />
-          <button type="button" className="teste btn btn-outline-dark ">
-            <FaUserNinja size={20} color="#FFF" /> About.Me
-          </button>
-          <button type="button" className="btn btn-outline-dark">
-            <FaGithub size={18} color="#FFF" />
-            <b>Jobs</b>
-          </button>
-          <button type="button" className="btn btn-outline-dark">
-            <FaGithub size={18} color="#FFF" /> Github
-          </button>
+          <div className="actions">
+            <button type="button" className="teste btn btn-outline-dark ">
+              <FaUserNinja size={20} color="#FFF" /> About.Me
+            </button>
+            <button type="button" className="btn btn-outline-dark">
+              <FaGithub size={18} color="#FFF" />
+              <b>Jobs</b>
+            </button>
+            <button type="button" className="btn btn-outline-dark">
+              <FaGithub size={18} color="#FFF" /> Github
+            </button>
+          </div>
         </header>
 
         <div className="Content">

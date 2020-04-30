@@ -1,15 +1,13 @@
-.Container {
-  position: absolute;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
 .Container Video {
   width: 100%;
 }
-.first {
-  overflow: hidden;
-}
+
 .header {
   position: absolute;
   top: 0;
@@ -20,22 +18,29 @@
   display: flex;
   align-items: center;
 }
-.header button {
-  height: 50px;
-  margin-right: 2%;
-  padding: 0px 10px 0px 10px;
-  display: inline-block;
-  align-items: center;
-}
-.teste {
-  margin-left: 30%;
-}
 
 .header img {
   width: 60px;
   height: 60px;
   margin-left: 10px;
 }
+
+.header .actions {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.header .actions button {
+  height: 50px;
+  width: 160px;
+  margin-right: 2%;
+  padding: 0px 10px 0px 10px;
+  display: inline-block;
+  align-items: center;
+}
+
 img {
   width: 200px;
   height: 200px;

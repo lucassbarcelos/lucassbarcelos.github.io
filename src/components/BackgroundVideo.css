@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .Container Video {
   width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -20,25 +23,28 @@
 }
 
 .header img {
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
+  width: 70px;
+  height: 70px;
+  margin-left: 2%;
 }
 
 .header .actions {
   position: absolute;
+  width: 600px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-44%);
   display: flex;
 }
 
 .header .actions button {
   height: 50px;
   width: 160px;
-  margin-right: 2%;
-  padding: 0px 10px 0px 10px;
-  display: inline-block;
-  align-items: center;
+  line-height: 25px;
+  margin-right: 5%;
+}
+
+.header .actions button b {
+  margin-left: 10px;
 }
 
 img {
@@ -58,47 +64,32 @@ button {
 
 .Content {
   position: absolute;
-  top: 0;
-  margin-top: 6.8%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 5%);
   color: #f1f1f1;
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 88%;
-  display: block;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  padding: 0;
+  width: 50%;
+  height: 50%;
 }
-
-.SubContent {
-  display: block;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
+.Content h1 {
+  font-size: 500%;
+  color: #f1f1f1;
 }
-
-.SubContent p {
+.Content p {
   color: #eeeeeead;
   font-size: 1.3rem;
 }
-.SubContent button {
-  margin-top: 30px;
-}
 
-.SubContent button:hover {
+.actions button:hover {
   background-color: #f1f1f1;
   color: #000000c0;
 }
 
-.SubContent img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  display: block;
-  margin: 15px auto;
-  border: #f1f1f1 1px transparent;
+.icons:hover {
+  color: #000000c0;
 }
+
 #aboutMe {
   position: absolute;
   background-color: #bbbb;
@@ -106,5 +97,11 @@ button {
   height: 100%;
 }
 .next {
-  margin-top: 17px;
+  height: 30px;
+  margin-top: 15%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.next:hover {
+  height: 80px;
+  color: rgba(100, 100, 100, 0.8);
 }

@@ -21,37 +21,36 @@ const BackgroundVideo = () => {
           />
           <div className="actions">
             <button type="button" className="teste btn btn-outline-dark ">
-              <FaUserNinja size={20} color="#FFF" /> About.Me
+              <FaUserNinja className="icons" size={20} />
+              <b>About.Me</b>
             </button>
             <button type="button" className="btn btn-outline-dark">
-              <FaGithub size={18} color="#FFF" />
-              <b>Jobs</b>
+              <FaGithub className="icons" size={18} />
+              <b>Projects</b>
             </button>
-            <button type="button" className="btn btn-outline-dark">
-              <FaGithub size={18} color="#FFF" /> Github
-            </button>
-          </div>
-        </header>
 
-        <div className="Content">
-          <div className="SubContent">
-            <img
-              src="https://avatars2.githubusercontent.com/u/13748415?s=460&u=8fd252c46e97a8e711d6f17fa6a3e379eb38de2f&v=4"
-              alt="profile"
-            />
-            <h1>Lucas Barcelos</h1>
-            <p>Web developer using React</p>
             <Link To="https://github.com/lucassbarcelos">
               <button
                 type="button"
                 onClick="redirect('github.com/lucassbarcelos')"
                 className="btn btn-outline-dark"
               >
-                <FaGithub size={18} color="#FFF" /> Github
+                <FaGithub className="icons" size={18} />
+                <b>Github</b>
               </button>
             </Link>
           </div>
-          <FaAngleDoubleDown className="next" size={100} color="#BBB" />
+        </header>
+
+        <div className="Content">
+          <h1>Lucas Barcelos</h1>
+          <p>Web developer using React</p>
+          <p></p>
+          <FaAngleDoubleDown
+            className="next"
+            size={100}
+            color="rgba(0, 0, 0, 0.5);"
+          />
         </div>
       </div>
       <div id="aboutMe">teste</div>
